@@ -67,7 +67,7 @@ app.get('/', function (req, res) {
 app.listen(PORT, () => console.log(`server is running access to -> http://localhost:${PORT}`));
 ```
 
-## githubにプロジェクトをあげるとき
+## githubに関して
 > [!WARNING]
 >### .gitignoreとファイルを作り、以下を記入してからpushしてください
 >```
