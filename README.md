@@ -77,6 +77,9 @@ app.listen(PORT, () => console.log(`server is running access to -> http://localh
 >```bash
 >npm i
 >```
+>```bash
+>npm run start
+>```
 
 ## バックエンドからフロントエンドに情報を返して表示させる
 ### *ejsをを使います、ご要望があれば説明いたします!*
