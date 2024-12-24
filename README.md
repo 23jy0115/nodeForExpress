@@ -13,7 +13,7 @@ npm init -y
 npm i express nodemon
 ```
 
-3. packge.jsonというファイルがあるのでそこに以下のように変更を加える
+3. package.jsonというファイルがあるのでそこに以下のように変更を加える
 ```diff
 {
   "name": "test",
@@ -66,6 +66,17 @@ app.get('/', function (req, res) {
 
 app.listen(PORT, () => console.log(`server is running access to -> http://localhost:${PORT}`));
 ```
+
+## githubにプロジェクトをあげるとき
+> [!WARNING]
+>### .gitignoreとファイルを作り、以下を記入してからpushしてください
+>```
+>node_modules/
+>```
+>### cloneして動かす時は、以下のコマンドを実行
+>```bash
+>npm i
+>```
 
 ## バックエンドからフロントエンドに情報を返して表示させる
 ### *ejsをを使います、ご要望があれば説明いたします!*
