@@ -1,5 +1,4 @@
-# nodeForExpress
-node.jsのパッケージ"express"を使ってサーバーを立ち上げる
+# node.jsを使ってbackendを書いてみる
 
 > [!WARNING]
 > ## 🧑‍💻 githubで管理する時の注意
