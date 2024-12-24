@@ -1,6 +1,21 @@
 # nodeForExpress
 node.jsのパッケージ"express"を使ってサーバーを立ち上げる
 
+
+> ## [!WARNING] 🧑‍💻 githubで管理する時の注意
+>### .gitignoreとファイルを作り、以下を記入してからpushしてください
+>```
+>node_modules/
+>```
+>### cloneして動かす時は、以下のコマンドを実行
+>```bash
+>npm i
+>```
+>```bash
+>npm run start
+>```
+
+
 ## プロジェクトを立ち上げる
 
 1. プロジェクトフォルダを作成し、そこで以下のコマンドをコマンドラインで入力し、プロジェクトを立ち上げる
@@ -66,20 +81,6 @@ app.get('/', function (req, res) {
 
 app.listen(PORT, () => console.log(`server is running access to -> http://localhost:${PORT}`));
 ```
-
-## githubに関して
-> [!WARNING]
->### .gitignoreとファイルを作り、以下を記入してからpushしてください
->```
->node_modules/
->```
->### cloneして動かす時は、以下のコマンドを実行
->```bash
->npm i
->```
->```bash
->npm run start
->```
 
 ## バックエンドからフロントエンドに情報を返して表示させる
 ### *ejsをを使います、ご要望があれば説明いたします!*
